@@ -1,0 +1,7 @@
+- name: Install zabbix
+  hosts: es
+  user: root
+  roles:
+    - zabbix
+  vars:
+    zabbix_server_ip: 192.168.100.111
